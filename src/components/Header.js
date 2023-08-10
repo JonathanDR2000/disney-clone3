@@ -78,7 +78,7 @@ const Header = (props) => {
              </a>
              <a href='/home'>
 
-                <img src='./disney-clone/images/watchlist-icon.svg' alt='WATCHLIST'/>
+                <img src='./disney-clone/images/watchlist-icon.SVG' alt='WATCHLIST'/>
                 <span>WATCHLIST</span>
              </a>
              <a href='/home'>
