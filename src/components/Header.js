@@ -83,7 +83,7 @@ const Header = (props) => {
              </a>
              <a href='/home'>
 
-                <img src='./disney-clone/images/original-icon.svg' alt='ORIGINAL'/>
+                <img src='/disney-clone/images/original-icon.svg' alt='ORIGINAL'/>
                 <span>ORIGINAL</span>
              </a>
              <a href='/home'>
