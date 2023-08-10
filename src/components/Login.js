@@ -51,11 +51,11 @@ const BgImage = styled.div`
     background-size: cover;
     background-repeat: no-repeat;
 
-    background-image: url('/images/login-background.jpg');
+    background-image: url('./disney-clone/images/login-background.jpg');
     position:absolute;
     top: 0;
     right: 0;
-    righgt: 0;
+    
     left: 0;
     z-index: -1;
 `;

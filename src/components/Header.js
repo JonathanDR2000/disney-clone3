@@ -57,7 +57,7 @@ const Header = (props) => {
     return(
         <Nav>
            <Logo>
-            <img src="./disney-clone/images/logo.svg" alt='Disney+'/>
+            <img src='./disney-clone/images/logo.svg' alt='Disney+'/>
            </Logo>
            {!userName ? ( 
            <Login onClick={handleAuth}>Login</Login>
@@ -68,17 +68,17 @@ const Header = (props) => {
            <NavMenu>
              <a href='/home'>
 
-                <img src='https://JonathanDR2000.github.io/disney-clone/public/images/home-icon.svg' alt='HOME'/>
+                <img src='./disney-clone/images/home-icon.svg' alt='HOME'/>
                 <span>HOME</span>
              </a>
              <a href='/home'>
 
-                <img src='homepagePath/images/search-icon.svg' alt='SEARCH'/>
+                <img src='./disney-clone/images/search-icon.svg' alt='SEARCH'/>
                 <span>SEARCH</span>
              </a>
              <a href='/home'>
 
-                <img src='./disney-clone/images/watchlist-icon.SVG' alt='WATCHLIST'/>
+                <img src='./disney-clone/images/watchlist-icon.svg' alt='WATCHLIST'/>
                 <span>WATCHLIST</span>
              </a>
              <a href='/home'>
