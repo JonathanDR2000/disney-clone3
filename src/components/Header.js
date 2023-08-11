@@ -58,7 +58,7 @@ const Header = (props) => {
         <Nav>
            <Logo>
             <a>
-            <img src='./disney-clone/images/logo.svg' alt='Disney+'/>
+            <img src='../disney-clone/public/images/logo.svg' alt='Disney+'/>
             </a>
            </Logo>
            {!userName ? ( 
