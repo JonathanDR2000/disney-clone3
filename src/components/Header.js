@@ -71,17 +71,17 @@ const Header = (props) => {
            
              <a href='/home'>
 
-                <img src='./disney-clone2/images/home-icon.svg' alt='HOME'/>
+                <img src='./disney-clone3/images/home-icon.svg' alt='HOME'/>
                 <span>HOME</span>
              </a>
              <a href='/home'>
 
-                <img src='./disney-clone2/images/search-icon.svg' alt='SEARCH'/>
+                <img src='/images/search-icon.svg' alt='SEARCH'/>
                 <span>SEARCH</span>
              </a>
              <a href='/home'>
 
-                <img src='./disney-clone2/images/watchlist-icon.svg' alt='WATCHLIST'/>
+                <img src='./images/watchlist-icon.svg' alt='WATCHLIST'/>
                 <span>WATCHLIST</span>
              </a>
              <a href='/home'>
