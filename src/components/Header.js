@@ -56,11 +56,7 @@ const Header = (props) => {
 
     return(
         <Nav>
-           <Logo>
-            <a>
-            <img src='./disney-clone/images/images/logo.svg' alt='Disney+'/>
-            </a>
-           </Logo>
+           
            {!userName ? ( 
            <Login onClick={handleAuth}>Login</Login>
            ) : ( 
@@ -68,6 +64,11 @@ const Header = (props) => {
            <> 
            
            <NavMenu>
+           <Logo>
+            <a>
+            <img src='./disney-clone/images/images/logo.svg' alt='Disney+'/>
+            </a>
+           </Logo>
              <a href='/home'>
 
                 <img src='./disney-clone/images/home-icon.svg' alt='HOME'/>
