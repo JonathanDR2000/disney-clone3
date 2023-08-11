@@ -7,7 +7,7 @@ const Login = (props) => {
    <Container>
     <Content>
         <CTA>
-            <CTALogoOne src='../disney-clone/public/images/cta-logo-one.svg' alt=''/>
+            <CTALogoOne src='./disney-clone/images/cta-logo-one.svg' alt=''/>
             <SignUp>GET ALL THERE</SignUp>
             <Description>
                 Get Premier Acces to Raya and the Last Dragon for an 
@@ -16,7 +16,7 @@ const Login = (props) => {
                 will increase by 1$.
 
             </Description>
-            <CTALogoTwo src='../disney-clone/public/images/cta-logo-two.png' alt=''/>
+            <CTALogoTwo src='./disney-clone/images/images/cta-logo-two.png' alt=''/>
         </CTA>
         <BgImage/>
     </Content>
