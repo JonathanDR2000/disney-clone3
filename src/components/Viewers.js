@@ -3,35 +3,35 @@ import styled from 'styled-components';
 const Viewers = (props) => {
     return( <Container>
            <Wrap>
-            <img src='./disney-clone/images/viewers-disney.png' alt=''/>
+            <img src='./disney-clone2/images/viewers-disney.png' alt=''/>
             <video autoPlay={true} loop={true} playsInLine={true}>
-                <source src='./disney-clone/videos/1564674844-disney.mp4' type='video/mp4'/>
+                <source src='./disney-clone2/videos/1564674844-disney.mp4' type='video/mp4'/>
             </video>
            </Wrap>
            <Wrap>
-            <img src='./disney-clone/images/viewers-pixar.png' alt=''/>
+            <img src='./disney-clone2/images/viewers-pixar.png' alt=''/>
             <video autoPlay={true} loop={true} playsInLine={true}>
-                <source src='./disney-clone/videos/1564676714-pixar.mp4' type='video/mp4'/>
-            </video>
-           </Wrap>
-                  
-           <Wrap>
-            <img src='./disney-clone/images/viewers-starwars.png' alt=''/>
-            <video autoPlay={true} loop={true} playsInLine={true}>
-                <source src='./disney-clone/videos/1608229455-star-wars.mp4' type='video/mp4'/>
-            </video>
-           </Wrap>
-           <Wrap>
-            <img src='./disney-clone/images/viewers-national.png' alt=''/>
-            <video autoPlay={true} loop={true} playsInLine={true}>
-                <source src='./disney-clone/videos/1564676296-national-geographic.mp4' type='video/mp4'/>
+                <source src='./disney-clone2/videos/1564676714-pixar.mp4' type='video/mp4'/>
             </video>
            </Wrap>
                   
            <Wrap>
-            <img src='./disney-clone/images/viewers-marvel.png' alt=''/>
+            <img src='./disney-clone2/images/viewers-starwars.png' alt=''/>
             <video autoPlay={true} loop={true} playsInLine={true}>
-                <source src='./disney-clone/videos/1564676115-marvel.mp4' type='video/mp4'/>
+                <source src='./disney-clone2/videos/1608229455-star-wars.mp4' type='video/mp4'/>
+            </video>
+           </Wrap>
+           <Wrap>
+            <img src='./disney-clone2/images/viewers-national.png' alt=''/>
+            <video autoPlay={true} loop={true} playsInLine={true}>
+                <source src='./disney-clone2/videos/1564676296-national-geographic.mp4' type='video/mp4'/>
+            </video>
+           </Wrap>
+                  
+           <Wrap>
+            <img src='./disney-clone2/images/viewers-marvel.png' alt=''/>
+            <video autoPlay={true} loop={true} playsInLine={true}>
+                <source src='./disney-clone2/videos/1564676115-marvel.mp4' type='video/mp4'/>
             </video>
            </Wrap>
                   

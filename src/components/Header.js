@@ -56,7 +56,11 @@ const Header = (props) => {
 
     return(
         <Nav>
-           
+           <Logo>
+            <a>
+            <img src='./disney-clone2/images/logo.svg' alt='Disney+'/>
+            </a>
+           </Logo>
            {!userName ? ( 
            <Login onClick={handleAuth}>Login</Login>
            ) : ( 
@@ -64,39 +68,35 @@ const Header = (props) => {
            <> 
            
            <NavMenu>
-           <Logo>
-            <a>
-            <img src='./disney-clone/images/images/logo.svg' alt='Disney+'/>
-            </a>
-           </Logo>
+           
              <a href='/home'>
 
-                <img src='./disney-clone/images/home-icon.svg' alt='HOME'/>
+                <img src='./disney-clone2/images/home-icon.svg' alt='HOME'/>
                 <span>HOME</span>
              </a>
              <a href='/home'>
 
-                <img src='./disney-clone/images/search-icon.svg' alt='SEARCH'/>
+                <img src='./disney-clone2/images/search-icon.svg' alt='SEARCH'/>
                 <span>SEARCH</span>
              </a>
              <a href='/home'>
 
-                <img src='./disney-clone/images/watchlist-icon.svg' alt='WATCHLIST'/>
+                <img src='./disney-clone2/images/watchlist-icon.svg' alt='WATCHLIST'/>
                 <span>WATCHLIST</span>
              </a>
              <a href='/home'>
 
-                <img src='/disney-clone/images/original-icon.svg' alt='ORIGINAL'/>
+                <img src='/disney-clone2/images/original-icon.svg' alt='ORIGINAL'/>
                 <span>ORIGINAL</span>
              </a>
              <a href='/home'>
 
-                <img src='./disney-clone/images/movie-icon.svg' alt='MOVIES'/>
+                <img src='./disney-clone2/images/movie-icon.svg' alt='MOVIES'/>
                 <span>MOVIES</span>
              </a>
              <a href='/home'>
 
-                <img src='./disney-clone/images/series-icon.svg' alt='SERIES'/>
+                <img src='./disney-clone2/images/series-icon.svg' alt='SERIES'/>
                 <span>SERIES</span>
              </a>
              
