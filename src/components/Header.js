@@ -71,7 +71,7 @@ const Header = (props) => {
            
              <a href='/home'>
 
-                <img src='./disney-clone3/images/home-icon.svg' alt='HOME'/>
+                <img src='/images/home-icon.svg' alt='HOME'/>
                 <span>HOME</span>
              </a>
              <a href='/home'>
@@ -86,17 +86,17 @@ const Header = (props) => {
              </a>
              <a href='/home'>
 
-                <img src='/disney-clone2/images/original-icon.svg' alt='ORIGINAL'/>
+                <img src='/images/original-icon.svg' alt='ORIGINAL'/>
                 <span>ORIGINAL</span>
              </a>
              <a href='/home'>
 
-                <img src='./disney-clone2/images/movie-icon.svg' alt='MOVIES'/>
+                <img src='/images/movie-icon.svg' alt='MOVIES'/>
                 <span>MOVIES</span>
              </a>
              <a href='/home'>
 
-                <img src='./disney-clone2/images/series-icon.svg' alt='SERIES'/>
+                <img src='/images/series-icon.svg' alt='SERIES'/>
                 <span>SERIES</span>
              </a>
              

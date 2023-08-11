@@ -7,7 +7,7 @@ const Login = (props) => {
    <Container>
     <Content>
         <CTA>
-            <CTALogoOne src='./disney-clone2/images/cta-logo-one.svg' alt=''/>
+            <CTALogoOne src='./images/cta-logo-one.svg' alt=''/>
             <SignUp>GET ALL THERE</SignUp>
             <Description>
                 Get Premier Acces to Raya and the Last Dragon for an 
@@ -16,7 +16,7 @@ const Login = (props) => {
                 will increase by 1$.
 
             </Description>
-            <CTALogoTwo src='./disney-clone2/images/cta-logo-two.png' alt=''/>
+            <CTALogoTwo src='./images/cta-logo-two.png' alt=''/>
         </CTA>
         <BgImage/>
     </Content>
@@ -51,7 +51,7 @@ const BgImage = styled.div`
     background-size: cover;
     background-repeat: no-repeat;
 
-    background-image: url('../disney-clone2/images/login-background.jpg');
+    background-image: url('./images/login-background.jpg');
     position:absolute;
     top: 0;
     right: 0;
